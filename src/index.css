@@ -1,5 +1,18 @@
+@import url('./shared/css-variables/variables.css');
+
+@font-face {
+  font-family: 'BonaNova';
+  src: url('./shared/ui/fonts/BonaNova-Regular.woff2') format('woff2'),
+       url('./shared/ui/fonts/BonaNova-Regular.woff') format('woff');
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'BonaNova';
+  background-color: var(--bg-body-light-color);
 }
+
+
+
