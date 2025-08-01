@@ -1,4 +1,7 @@
 :root {
   --bg-body-light-color: #fff;
   --bg-body-dark-color: #000;
+  --border-color: #cc9600;
+  --search-button-bg-color: #4B330B;
+  --base-font-family: 'BonaNova';
 }

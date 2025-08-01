@@ -1,0 +1,23 @@
+@import url('../../shared/css-variables/variables.css');
+
+.searchWrapper {
+  display: flex;
+  gap: 10px;
+  padding: 8px 8px 8px 36px;
+  width: 395px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchButton {
+  background-color: var(--search-button-bg-color);
+  border-radius: 5px;
+  height: 36px;
+  width: 139px;
+  color: var(--bg-body-light-color);
+  font-size: 18px;
+  font-family: var(--base-font-family);
+  text-transform: capitalize;
+}
