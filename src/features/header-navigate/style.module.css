@@ -1,0 +1,21 @@
+/* @import url('../../shared/css-variables/variables.module.css');
+ */
+
+@import url('../../shared/css-variables/variables.css');
+
+.navigateWrapper {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.navigateLinkWrapper {
+  list-style-type: none;
+}
+
+.navigateLinkText {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--bg-body-light-color);
+}
