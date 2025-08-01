@@ -10,7 +10,14 @@ import { HeaderAvatar } from '../../entities/avatar';
 
 export const Header = () => {
   return (
-    <Box sx={{ backgroundImage: `url(${headerBackground})` }}>
+    <Box
+      sx={{
+        backgroundImage: `url(${headerBackground})`,
+        backgroundPosition: 'top center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+      }}
+    >
       <Layout>
         <div className={styles.headerWrapper}>
           <HeaderLogo />
