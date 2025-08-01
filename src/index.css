@@ -11,7 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'BonaNova';
-  background-color: var(--bg-body-light-color);
+  color: var(--bg-body-dark-color);
 }
 
 

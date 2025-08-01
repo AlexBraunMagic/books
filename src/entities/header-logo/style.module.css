@@ -1,0 +1,5 @@
+.headerIconWrapper {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
