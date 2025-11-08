@@ -5,9 +5,9 @@ import TextField from '@mui/material/TextField';
 import { HEADER_TOP_SEARCH_SECTION_TITLE } from '../../shared/consts';
 import { Layout } from '../../entities/layout/layout';
 import sectionBackground1 from '../../shared/assets/images/search-section-bg.png';
-import sectionBackground2 from '../../shared/assets/images/search-section-bg-jpg.jpg';
 import { HOME_PAGE_SEARCH_SECTION_TEXT } from '../../shared/consts/texts-consts';
 import styles from './style.module.css';
+import { Header } from '../header/header';
 
 export const HomePageSearchSection = () => {
   return (
@@ -15,12 +15,13 @@ export const HomePageSearchSection = () => {
       component='section'
       sx={{
         height: '100vh',
-        backgroundImage: `url(${sectionBackground2})`,
-        backgroundPosition: 'bottom center',
+        backgroundImage: `url(${sectionBackground1})`,
+        backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
       }}
     >
+      <Header />
       <Box
         sx={{
           paddingTop: '68px',
