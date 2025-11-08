@@ -8,7 +8,6 @@ function App() {
   return (
     <div className='App'>
       <BrowserRouter>
-        <Header />
         <Suspense fallback={<PageLoader />}>
           <Routes>
             {routes.map((route, i) => (
