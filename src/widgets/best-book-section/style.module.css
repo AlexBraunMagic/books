@@ -1,0 +1,11 @@
+.our_best_book__section {
+  height: 100vh;
+  padding: 106px 0 176px 0;
+}
+
+.our_best_book__title {
+  font-family: 'BonaNova';
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}

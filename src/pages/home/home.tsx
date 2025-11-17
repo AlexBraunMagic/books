@@ -1,10 +1,14 @@
-import { FC, ReactNode } from 'react';
-import { Box } from '@mui/system';
+import { FC } from 'react';
 import { HomePageSearchSection } from '../../widgets/home-page-search-section';
-import { Header } from '../../widgets/header/header';
+import { OurBestBook } from '../../widgets/best-book-section/best-book';
 
 const HomePage: FC = () => {
-  return <HomePageSearchSection />;
+  return (
+    <>
+      <HomePageSearchSection />
+      <OurBestBook />
+    </>
+  );
 };
 
 export default HomePage;
