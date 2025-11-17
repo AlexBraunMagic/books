@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef, useMemo } from 'react';
-import type { FC, ReactNode, ReactElement, JSX, ComponentType } from 'react';
+import type { ComponentType } from 'react';
 
 import { Box } from '@mui/material';
 import styles from './style.module.css';

@@ -1,1 +1,4 @@
-export type { IHeaderAvatar } from './types';
+export interface IHeaderAvatar {
+  img: string;
+  email?: string;
+}

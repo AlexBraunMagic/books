@@ -1,1 +1,3 @@
-export type { IFallBack } from './types';
+export interface IFallBack {
+  error: Error;
+}

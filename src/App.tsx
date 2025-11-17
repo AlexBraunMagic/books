@@ -1,8 +1,7 @@
 import { Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { routes } from './shared/router';
-import { Header } from './widgets/header/header';
-import { PageLoader } from './entities/loader/loader';
+import { routes } from 'shared/router';
+import { PageLoader } from 'shared/ui/loader';
 
 function App() {
   return (

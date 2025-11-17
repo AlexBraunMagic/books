@@ -1,15 +1,18 @@
+import type { FC } from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
-import { HEADER_TOP_SEARCH_SECTION_TITLE } from '../../shared/consts';
-import { Layout } from '../../entities/layout/layout';
-import sectionBackground1 from '../../shared/assets/images/search-section-bg.png';
-import { HOME_PAGE_SEARCH_SECTION_TEXT } from '../../shared/consts/texts-consts';
+import sectionBackground1 from 'shared/assets/images/search-section-bg.png';
+import { Header } from 'widgets/header';
+import { Layout } from 'shared/ui';
+import {
+  HEADER_TOP_SEARCH_SECTION_TITLE,
+  HOME_PAGE_SEARCH_SECTION_TEXT,
+} from 'shared/consts';
 import styles from './style.module.css';
-import { Header } from '../header/header';
 
-export const HomePageSearchSection = () => {
+export const HomePageSearchSection: FC = () => {
   return (
     <Box
       component='section'

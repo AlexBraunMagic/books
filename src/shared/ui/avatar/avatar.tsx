@@ -2,7 +2,7 @@ import { FC } from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
-import { IHeaderAvatar } from '../../shared/types/avatar';
+import { IHeaderAvatar } from 'shared/types';
 
 export const HeaderAvatar: FC<IHeaderAvatar> = ({ img, email }) => {
   return (

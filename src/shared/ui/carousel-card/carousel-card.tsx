@@ -1,8 +1,7 @@
 import type { FC } from 'react';
 import { IconButton, Box, Typography } from '@mui/material';
 import ShoppingCart from '../../assets/icon/shopping-cart.svg';
-import TestImg from '../../assets/images/test-card-img.png';
-import { ICard } from '../../types';
+import { ICard } from 'shared/types';
 import styles from './style.module.css';
 
 interface ICarouselCardProps {

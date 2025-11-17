@@ -1,14 +1,13 @@
+import type { FC } from 'react';
 import Box from '@mui/material/Box';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
-import headerBackground from '../../shared/assets/images/header-bg.png';
-import { Layout } from '../../entities/layout/layout';
-import { HeaderLogo } from '../../entities/header-logo/header-logo';
+import headerBackground from 'shared/assets/images/header-bg.png';
+import avatarImg from 'shared/assets/images/avatar-stab.png';
+import { HeaderAvatar, HeaderLogo, Layout } from 'shared/ui';
+import { HeaderNavigate } from 'features/header-navigate';
 import styles from './style.module.css';
-import { HeaderNavigate } from '../../features/header-navigate';
-import avatarImg from '../../shared/assets/images/avatar-stab.png';
-import { HeaderAvatar } from '../../entities/avatar';
 
-export const Header = () => {
+export const Header: FC = () => {
   return (
     <Box
       sx={{

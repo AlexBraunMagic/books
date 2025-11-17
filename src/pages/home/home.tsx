@@ -1,6 +1,5 @@
 import { FC } from 'react';
-import { HomePageSearchSection } from '../../widgets/home-page-search-section';
-import { OurBestBook } from '../../widgets/best-book-section/best-book';
+import { HomePageSearchSection, OurBestBook } from 'widgets';
 
 const HomePage: FC = () => {
   return (
