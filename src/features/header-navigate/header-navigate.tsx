@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import { NAVIGATE_LINKS } from '../../shared/consts';
+import { NAVIGATE_LINKS } from 'shared/consts';
 import styles from './style.module.css';
 
 export const HeaderNavigate: FC = () => {

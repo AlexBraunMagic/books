@@ -1,10 +1,10 @@
-import { FC } from 'react';
+import type { FC } from 'react';
 import Box from '@mui/material/Box';
-import PageLoaderGif from '../../shared/assets/gif/page-loader.gif';
-import { Layout } from '../layout/layout';
+import PageLoaderGif from 'shared/assets/gif/page-loader.gif';
+import { Layout } from '../layout';
 import styles from './style.module.css';
 
-export const PageLoader = () => {
+export const PageLoader: FC = () => {
   return (
     <Box sx={{ width: '100%', height: '100vh' }}>
       <Layout>

@@ -1,4 +1,4 @@
-import { INavMenuType } from '../types';
+import { INavMenuType } from 'shared/types';
 
 export const NAVIGATE_LINKS: INavMenuType[] = [
   {

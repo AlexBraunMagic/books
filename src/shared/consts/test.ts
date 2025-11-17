@@ -1,5 +1,5 @@
+import { ICard } from 'shared/types';
 import TestImg from '../assets/images/test-card-img.png';
-import { ICard } from '../types';
 
 export const TEST_SLIDER_DATA: Array<ICard> = [
   {

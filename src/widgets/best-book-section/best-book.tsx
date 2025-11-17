@@ -1,13 +1,10 @@
 import type { FC } from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import { OUR_BEST_BOOK_SECTION_TITLE } from '../../shared/consts/titles-consts';
-import { Layout } from '../../entities/layout/layout';
-import { CarouselCard } from '../../shared/ui/carousel-card';
-import { Carousel } from '../../shared/ui/carousel';
+import { Carousel, CarouselCard, Layout } from 'shared/ui';
+import { ICard } from 'shared/types';
+import { OUR_BEST_BOOK_SECTION_TITLE, TEST_SLIDER_DATA } from 'shared/consts';
 import styles from './style.module.css';
-import { TEST_SLIDER_DATA } from '../../shared/consts';
-import { ICard } from '../../shared/types';
 
 export const OurBestBook: FC = () => {
   return (

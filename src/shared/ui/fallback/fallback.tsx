@@ -1,5 +1,5 @@
-import React, { FC } from 'react';
-import { IFallBack } from '../../types';
+import { FC } from 'react';
+import { IFallBack } from 'shared/types';
 
 export const Fallback: FC<IFallBack> = ({ error }: { error: Error }) => {
   const { cause } = error;

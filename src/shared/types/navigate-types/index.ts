@@ -1,1 +1,4 @@
-export type { INavMenuType } from './types';
+export interface INavMenuType {
+  pathName: string;
+  linkText: string;
+}
