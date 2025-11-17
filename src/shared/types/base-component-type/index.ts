@@ -1,1 +1,1 @@
-export type { IBaseComponentType } from './types';
+export type { IBaseComponentType, ICard } from './types';
