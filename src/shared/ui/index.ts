@@ -6,6 +6,7 @@ import { PageLoader } from './loader';
 import { SliderDot } from './slider-dot';
 import { HeaderLogo } from './header-logo';
 import { HeaderAvatar } from './avatar';
+import { ShoppingSectionInfoCard } from './shopping-section-info-card';
 
 export {
   Carousel,
@@ -16,4 +17,5 @@ export {
   SliderDot,
   HeaderLogo,
   HeaderAvatar,
+  ShoppingSectionInfoCard,
 };
