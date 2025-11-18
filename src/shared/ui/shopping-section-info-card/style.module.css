@@ -1,0 +1,6 @@
+@import url('../../css-variables/variables.css');
+
+.info_card {
+  color: var(--border-color);
+  font-family: 'BonaNova';
+}

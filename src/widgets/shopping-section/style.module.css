@@ -1,0 +1,47 @@
+@import url('../../shared/css-variables/variables.css');
+
+.shopping_section {
+  height: 100vh;
+  padding: 157px 0 34px 0;
+  background-color: var(--bg-body-dark-color);
+}
+
+.shopping_section__image {
+  height: max-content;
+}
+
+.shopping_section__title {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'BonaNova';
+}
+
+.shopping_section__title__part_1 {
+  max-width: 390px;
+  color: var(--bg-body-light-color);
+  display: block;
+}
+
+.shopping_section__title__part_2 {
+  color: var(--border-color);
+  display: inline;
+}
+
+.shopping_section__text {
+  font-family: 'BonaNova';
+  color: var(--bg-body-light-color);
+}
+
+.shopping_section__button {
+  padding: 13px 50px;
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  max-width: 195px;
+}
+
+.shopping_section__button_text {
+  font-family: 'BonaNova';
+  color: var(--bg-body-light-color);
+  font-size: 15px;
+}
